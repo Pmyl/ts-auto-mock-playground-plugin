@@ -28,11 +28,17 @@
     "concurrently": "^5.1.0",
     "monaco-editor": "^0.19.3",
     "node-fetch": "^2.6.0",
+    "path-browserify": "^1.0.1",
     "rollup": "^1.31.0",
+    "rollup-plugin-external-globals": "^0.6.1",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-polyfill-node": "^0.6.2",
     "serve": "^11.3.0",
+    "ts-auto-mock": "^3.2.2",
     "typescript": "latest"
   },
   "dependencies": {
+    "rollup-plugin-node-globals": "^1.4.0",
     "tslib": "^1.10.0"
   }
 }
